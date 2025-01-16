@@ -1,8 +1,32 @@
-# React + Vite
+## 🛠️ Installation Steps
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Clone the repository
 
-Currently, two official plugins are available:
+```bash
+git clone https://github.com/ShubhamMahaseth/assignment-calendar.git
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Change the working directory
+
+```bash
+cd assignment-calendar
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Run the app
+
+```bash
+npm run dev
+```
+
+🌟 You are all set!
+
+<hr>
+<p align="center">
+Developed with ❤️ in India 🇮🇳 
+</p>
