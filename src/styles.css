@@ -71,13 +71,6 @@
   padding-left: 10px;
 }
 
-.event-card {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin: 5px 0;
-}
-
 .upcoming-events {
   display: flex;
   flex-direction: column;
