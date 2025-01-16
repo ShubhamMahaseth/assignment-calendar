@@ -1,5 +1,7 @@
 // Main Dependencies
 import React from "react";
+import { AiFillHome } from "react-icons/ai";
+import { HiMiniAcademicCap } from "react-icons/hi2";
 
 // Sidebar Component
 export function Sidebar() {
@@ -16,11 +18,15 @@ export function Sidebar() {
       <nav className="sidebar">
         <ul className="menu">
           <li className="menu-item">
-            <span className="icon">🏠</span>
+            <span className="icon">
+              <AiFillHome />
+            </span>
             Home
           </li>
           <li className="menu-item">
-            <span className="icon">🎓</span>
+            <span className="icon">
+              <HiMiniAcademicCap />
+            </span>
             Academi
             <ul className="submenu">
               <li>Academi Calendar</li>

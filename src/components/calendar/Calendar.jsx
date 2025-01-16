@@ -1,5 +1,6 @@
 // Main Dependencies
 import React from "react";
+import { AiFillCaretLeft, AiFillCaretRight } from "react-icons/ai";
 import "./style.css";
 
 export function Calendar() {
@@ -47,12 +48,16 @@ export function Calendar() {
   return (
     <div className="calendar-container">
       <div className="calendar-header">
-        <div>
-          <button>&lt;</button>
+        <div className="date-navigation">
+          <button>
+            <AiFillCaretLeft />
+          </button>
           <span>02-07-2024</span>
-          <button>&gt;</button>
+          <button>
+            <AiFillCaretRight />
+          </button>
         </div>
-        <div>
+        <div className="date-navigation">
           <button>Day</button>
           <button>Week</button>
           <button>Month</button>
